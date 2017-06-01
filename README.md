@@ -13,6 +13,6 @@ Use Certbot to get certificates
     
 Run server with config files placed inside a config folder
 -----------
-    docker build -t vpn .
+    ./build_image.sh your.domain.com
     docker run -d -p 500:500/udp -p 4500:4500/udp --cap-add=NET_ADMIN -v $(pwd)/config:/home/config vpn
     
