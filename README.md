@@ -1,5 +1,3 @@
-remote
-
 Docker image for strongswan ikev2 vpn with Let's Encrypt certificates. 
 ==================
 Download the repo
