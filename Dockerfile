@@ -8,4 +8,4 @@ ADD run.sh /run.sh
 
 
 EXPOSE 4500/udp 500/udp
-CMD ["/run.sh"]
+ENTRYPOINT /bin/bash /run.sh
