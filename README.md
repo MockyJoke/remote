@@ -14,7 +14,7 @@ Use Certbot to get certificates
     cd certbot
     ./certbot-auto certonly -n --email your@email.com --domains "your.domain.com" --agree-tos --standalone --text
     sudo cp -L /etc/letsencrypt/live/your.domain.com/cert.pem ../config/serverCert.pem
-    sudo cp -L /etc/letsencrypt/live/your.domain.com/privKey.pem ../config/serverKey.pem
+    sudo cp -L /etc/letsencrypt/live/your.domain.com/privkey.pem ../config/serverKey.pem
     
 Run server with config files placed inside a config folder
 -----------
